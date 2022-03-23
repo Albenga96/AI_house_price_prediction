@@ -1,8 +1,8 @@
 # import the necessary packages
 from tensorflow.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
-from pyimagesearch import datasets
-from pyimagesearch import models
+from utils import datasets
+from utils import models
 import numpy as np
 import argparse
 import locale

@@ -1,6 +1,6 @@
 # import the necessary packages
-from pyimagesearch import datasets
-from pyimagesearch import models
+from utils import datasets
+from utils import models
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Model
